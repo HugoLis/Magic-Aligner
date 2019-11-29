@@ -1,11 +1,15 @@
 # Magic Aligner
-<img src="/magic-aligner.png" width="212">
+
+<p align="left">
+ <img src="/magic-aligner.gif" width="212">
+</p>
 
 Sketch plugin to align objects by their centers of mass. Magic Aligner automates optical adjustments in many cases.
 
-## Installation
- [Download](https://github.com/HugoLis/Magic-Aligner/releases/download/v1.0.0/magic-aligner.sketchplugin.zip), unzip it and open the **.sketchplugin** file for auto installation.
 
+## Installation
+ [Download](https://github.com/HugoLis/Magic-Aligner/releases/latest/download/magic-aligner.sketchplugin.zip), unzip it and open the **.sketchplugin** file for auto installation.
+ 
 ## Usage
 - Center objects by their bounding boxes
 - Select an object
