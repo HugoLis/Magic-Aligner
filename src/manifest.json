@@ -1,0 +1,37 @@
+{
+  "$schema": "https://raw.githubusercontent.com/BohemianCoding/SketchAPI/develop/docs/sketch-plugin-manifest-schema.json",
+  "icon": "icon.png",
+  "commands": [
+      {
+          "name" : "Align to Center of Mass",
+          "identifier" : "alignToCentroid",
+          "shortcut" : "cmd l",
+          "script" : "magic-aligner.js",
+          "handler" : "alignToCentroid"
+      },
+      {
+          "name" : "Align X to Center of Mass",
+          "identifier" : "horizontallyAlignToCentroid",
+          "shortcut" : "cmd shift x",
+          "script" : "magic-aligner.js",
+          "handler" : "horizontallyAlignToCentroid"
+      },
+      {
+          "name" : "Align Y to Center of Mass",
+          "identifier" : "verticallyAlignToCentroid",
+          "shortcut" : "cmd shift y",
+          "script" : "magic-aligner.js",
+          "handler" : "verticallyAlignToCentroid"
+      }
+  ],
+  "menu": {
+      "shortcut" : "",
+      "title": "Magic Aligner",
+      "items": [
+          "alignToCentroid",
+          "horizontallyAlignToCentroid",
+          "verticallyAlignToCentroid"
+      ]
+  }
+
+}
